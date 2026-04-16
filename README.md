@@ -1,2 +1,51 @@
-# VAVEL-MVP
-AI-powered multi-track transcription tool for musicians. Stack: Demucs + Basic Pitch + Gradio. Seeking tech co-founder.
+# 乐社 / VAVEL - AI 扒谱工具 MVP
+
+> *AI-powered multi-track transcription for musicians. Stack: Demucs + Basic Pitch + Gradio. Seeking tech co-founder.*
+
+---
+
+## 这项目是干嘛的？
+
+上传一首歌（MP3）→ AI 自动分离人声、吉他、贝斯、鼓的音轨 → 生成各个音轨的谱以及总谱。
+解决乐手“找不到原版谱、扒谱费时、版本混乱”的痛点。
+
+---
+
+## 技术栈是什么？我能不能干？
+
+- **分轨**：Demucs 6源分离模型 (Meta开源，人声/贝斯/鼓/吉他/钢琴/其他)
+- **扒谱**：Basic Pitch (Spotify开源，音频转MIDI)
+- **谱面渲染**：VexFlow (吉他/贝斯/鼓谱) + 简谱转换逻辑
+- **总谱整合**：music21
+- **界面**：Gradio (网页界面)
+
+**核心工作**：把上面几个开源组件串起来，写一点谱面转换逻辑。
+**不需要**：自己训练模型、深度学习理论。会 Python、愿意看文档就能干。
+
+---
+
+## 项目进度到哪了？
+
+MVP 从零启动，想法始于 4 月 16 号。欢迎在读研究生、本科生参加！！！
+
+---
+
+## 你是认真的吗？
+
+- 我：吉他手 + 鼓手，6 个月产品经验，研究生，产品全景蓝图已备好。
+- 这个仓库就是证明，不是随便想想。
+
+---
+
+## 我加入能得到什么？
+
+- 如果你接受这份蓝图，志同道合，未来，**技术入股 20%**
+- 若你不打算入股，只想兼职参与项目，你也能获得 **“AI + 音乐”实战项目履历**
+- 我计划先做出 Demo，拿去参赛，获取初步资金
+
+---
+
+## 怎么联系你？
+
+若你感兴趣，想知道更多详情，可联系：
+- 📧 邮箱：820464426@qq.com
